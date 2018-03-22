@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+    <title>BIG</title>
+    <link rel="stylesheet" href="styles\style.css">
+  </head>
+ 
+ <nav>
+   
+   <div>
+   <h1><a href = "#"><img src = "images\big-logo-small.png" alt="logo"></a>BIG Smart Production</h1>
+   </div>   
+ </nav>
+ 
+  <body>
+
+    <h2>
+      Anmelden
+    </h2>
+
+    <form action="overview.html" method="post">   
+      <p>
+        <label for="userName">Benutzername:</label>
+        
+        <input type="text" id="userName" placeholder="Benutzername" name="userName" required />
+          </p>
+        <label for="password">Passwort:</label>
+        
+        <input type="password" id="password" placeholder="Passwort" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password"/>
+                
+      <p><input type="submit" value="Anmelden" name="action" /></p>
+    </form>
+
+  </body>
+
+</html>

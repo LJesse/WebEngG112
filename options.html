@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+  </head>
+
+  <body>
+
+  <header>
+  <div id="logo" class="Topbar">
+  <h1>BIG Smart Production</h1>
+       
+  </header>
+    <h2>
+      Passwort ändern
+    </h2>
+
+    <form action="overview.html" method="post">
+      <fieldset>
+        <p>
+          <label for="passwordOld">Passwort:</label>
+          <br>
+          <input type="password" id="passwordOld" placeholder="Altes Passwort" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="passwordOld" required />
+        </p>
+        <p>
+          <label for="passwordNew">Passwort:</label>
+          <br>
+          <input type="password" id="passwordNew" placeholder="Neues Passwort" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="passwordNew" required />
+        </p>
+        <p>
+          <label for="password">Passwort wiederholen:</label>
+          <br>
+          <input type="password" id="password" placeholder="Neues Passwort wiederholen" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password" required />
+        </p>
+        <p><input type="submit" value="Änderung speichern" name="action" /></p>
+      </fieldset>
+    </form>
+
+  </body>
+
+</html>
