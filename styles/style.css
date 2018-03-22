@@ -1,18 +1,35 @@
 
+
+<meta name="viewport"cont ent="width=device-width,initial-scale=1.0,maximum-scale=3 ,minimum-scale= 0.5"/>
+    
+
 body,html{
   margin:0;
   padding:0;
+background:LightGray ;
 }
 
+nav{
+  align-items: left;
+}
 
 nav div{
   background:orange
 }
-nav div h1{
-  line-height: 0;
-  padding: .8rem 9rem;
-  text-align: left;
-}
-nav div h1,nav ul{
+
+nav div:first-child h1,nav ul{
   margin:0;
+display:inline-block;
+vertical-align:middle;
+padding: 10px 10px;
 }
+nav div h1{
+  margin:0;
+display:inline-block;
+vertical-align:middle;
+padding: 0px 5px;
+}
+
+
+/*Styling for 1200*/
+
